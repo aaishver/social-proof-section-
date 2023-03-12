@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+main{
+    max-width: 78%;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0 auto 80px auto;
+
+}
+
+
+
+
+
+
+
+
+/* top container css section */
+
+.top-container{
+    position: relative;
+    top: 50px;
+    justify-content: space-between;
+    display: flex;
+    color: hsl(300, 43%, 22%);
+}
+
+/* top container left side css section */
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0 15rem 1rem 0;
+}
+#top-para{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    padding: 0 12rem 1rem 0;
+}
+
+
+/* top container right side css section */
+
+.top{
+    flex-basis: 50%;
+}
+
+.rating{
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 60px 10px 40px;
+    position: relative;
+    background-color: hsla(300, 32%, 86%, 0.395);
+}
+.rating1{
+    right: 30px;
+}
+.rating2{
+    left: 20px;
+}
+.rating3{
+    left: 60px;
+}
+.rating p{
+    margin-left: 1.5rem;
+    place-self: center;
+    font-weight: bold;
+}
+
+
+/* bottom container css section */
+
+.bottom-container{
+    position: relative;
+    top: 20px;
+ 
+    display: flex;
+}
+.bot{
+    position: relative;
+    width: 400px;
+    margin-top: 50px;
+    padding: 32px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+    box-shadow: 0 5px 10px 10px rgba(0,0,0,0.1);
+}
+
+
+/* bottom cards css section  */
+
+.card2{
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.card3{
+    top: 30px;
+}
+
+/* cards content css section */
+
+.side-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px ;
+
+}
+section h2{
+    font-size: 15px;
+}
+section p{
+    line-height: 1.5;
+    color: hsl(333, 80%, 67%);
+}
+.side-section img{
+    width: 50%;
+    border-radius: 50%;
+}
+.buyer-review{
+    line-height: 150%;
+}
+
+
+/* media query section  */
+
+@media (max-width:1200px){
+    main{
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width:1050px){
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        padding: 0 9rem 1rem 0;
+    }
+    #top-para{
+        padding: 0 7rem 1rem 0;
+    }
+    .rating{
+        margin-left: 0;
+    }
+
+}
+
+
+@media (max-width:850px){
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        padding: 0 5rem 1rem 0;
+    }
+    #top-para{
+        padding: 0 3rem 1rem 0;
+    }
+    
+    .rating{
+        border-radius: 10px;
+        margin: 0 30px 10px 0;
+
+    }
+    .rating1{
+        right: 40px;
+    }
+    .rating2{
+        left: 0;
+    }
+    .rating3{
+        left: 50px;
+    }
+    .rating p{
+        margin-left: 1.2rem;
+    }
+}
+
+
+@media (max-width:730px){
+    .top-container{
+        display: block;
+    }
+    .top{
+        text-align: center;
+    }
+    h1{
+        font-size: 35px;
+        padding: 0;
+    }
+    #top-para{
+        padding: 1rem 0;
+    }
+    .right-side{
+        padding: 0.5rem 0 6rem 0; 
+    }
+    .rating{
+        margin-inline: auto;
+        padding: 15px;
+        line-height: 1.5;
+        display: block;
+        position: static;
+    }
+    .rating p{
+        margin: 0;
+    }
+    .bottom-container{
+        display: block;
+        padding-top: 3rem;
+    }
+    .bot{
+        width: 100%;
+        margin-top: 14px;
+        box-shadow: none;
+    }
+    .card2{
+        top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .card3{
+        top: 0;
+    }
+    .buyer-review{
+        line-height: 130%;
+    }
+}
+
+
+@media (max-width:380px){
+    .bot{
+        padding: 25px;
+    }
+}
+
+
+
+
+
+
